@@ -3,7 +3,7 @@ name: "Gala"
 title: "Diseño"
 description: "los odios a todos hijos de putas."
 logo: 'assets/images/logo-gala.png'
-favicon: 'assets/images/logo.png'
+favicon: 'assets/images/favicon-gala.png'
 baseurl: /almadabelu.github.io
 google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'
