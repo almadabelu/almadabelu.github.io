@@ -1,17 +1,29 @@
 ---
 layout: post
-title:  "About Bundler"
-author: sal
-categories: [ Jekyll ]
+title: Acerca de Bundler
+author: Belu
+categories:
+- jekkyl
+- " asdf"
+- as
+- df
+- asd
+- f
+- asd
+- f
+- asd
+- f
+- asdf
 image: assets/images/2.jpg
-rating: 3
+rating: "3"
+
 ---
-`gem install bundler` installs the bundler gem through RubyGems. You only need to install it once - not every time you create a new Jekyll project. Here are some additional details:
+gem install bundler instala la gema bundler a través de RubyGems. Solo necesita instalarlo una vez, no cada vez que cree un nuevo proyecto Jekyll. Aquí hay algunos detalles adicionales:
 
-`bundler` is a gem that manages other Ruby gems. It makes sure your gems and gem versions are compatible, and that you have all necessary dependencies each gem requires.
+Bundler es una gema que maneja otras gemas de rubí. Se asegura de que sus gemas y versiones de gemas sean compatibles, y que tenga todas las dependencias necesarias que requiere cada gema.
 
-The `Gemfile` and `Gemfile.lock` files inform `Bundler` about the gem requirements in your site. If your site doesn’t have these Gemfiles, you can omit `bundle exec` and just `run jekyll serve`.
+Los archivos Gemfile y Gemfile.lock informan a Bundler sobre los requisitos de gemas en su sitio. Si su sitio no tiene estos Gemfiles, puede omitir el paquete exec y simplemente ejecutar jekyll serve.
 
-When you run `bundle exec jekyll serve`, `Bundler` uses the gems and versions as specified in `Gemfile.lock` to ensure your Jekyll site builds with no compatibility or dependency conflicts.
+Cuando ejecuta bundle exec jekyll serve, Bundler usa las gemas y las versiones como se especifica en Gemfile.lock para garantizar que su sitio Jekyll se compile sin compatibilidad ni con conflictos de dependencia.
 
-For more information about how to use `Bundler` in your Jekyll project, this tutorial should provide answers to the most common questions and explain how to get up and running quickly.
+Para obtener más información sobre cómo usar Bundler en su proyecto Jekyll, este tutorial debe proporcionar respuestas a las preguntas más comunes y explicar cómo ponerse en marcha rápidamente.
