@@ -7,28 +7,24 @@ fields:
   label: layout
 - type: text
   name: title
-  label: title
-- type: text
-  name: author
-  label: author
+  label: Título
+  hidden: false
 - type: list
   name: categories
-  label: categories
-- type: list
-  name: tags
-  label: tags
+  label: 'Categorías '
+  config:
+    use_select: false
+    source:
+      type: simple
 - type: file
   name: image
-  label: image
+  label: Imagen
+- type: list
+  name: tags
+  label: Tags
 - type: text
   name: description
-  label: description
+  label: 'Descripción '
 - type: boolean
   name: featured
-  label: featured
-- type: boolean
-  name: hidden
-  label: hidden
-- type: text
-  name: rating
-  label: rating
+  label: Destacado
