@@ -29,4 +29,5 @@ fields:
   name: featured
   label: Destacado
 pages:
+- _posts/roseta-de-papel.md
 - contacto.md
