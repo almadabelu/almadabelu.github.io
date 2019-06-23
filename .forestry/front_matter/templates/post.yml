@@ -29,5 +29,6 @@ fields:
   name: featured
   label: Destacado
 pages:
+- _posts/frasco-intervenido.md
 - _posts/2019-06-20-roseta-de-papel.md
 - contacto.md
